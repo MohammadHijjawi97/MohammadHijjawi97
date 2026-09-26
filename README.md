@@ -10,6 +10,14 @@ My core specialism is **agentic AI**: LangGraph state machines and checkpointers
 
 ---
 
+## Building in the open: since-cutoff
+
+**[since-cutoff](https://github.com/MohammadHijjawi97/since-cutoff)** finds which of your exact dependency versions your coding model writes wrong, and fixes them with short AGENTS.md notes that a type checker verifies. It turns the idea behind our EMNLP 2026 temporal-isolation paper (what a model knows about the world after its cutoff) into a tool for real code.
+
+First result: Claude Haiku 4.5 wrote stale code for 3 of the 5 libraries probed on a sample project (`temperature=` in anthropic 1.8, `resume_download=` in huggingface_hub 2.0), and 8 notes took held-out tasks from 14% to 57% correct. Python, MIT, works as a Claude Code plugin.
+
+---
+
 ## Now
 
 - **AI Instructor and AI Engineering Mentor**, Multiverse, London. Hands-on architecture and code review with 130+ engineers building LLM, RAG and agent systems inside their own organisations, including the NHS and the University of Cambridge.
