@@ -12,9 +12,13 @@ My core specialism is **agentic AI**: LangGraph state machines and checkpointers
 
 ## Building in the open: since-cutoff
 
+<a href="https://github.com/MohammadHijjawi97/since-cutoff"><img src="https://raw.githubusercontent.com/MohammadHijjawi97/since-cutoff/main/docs/img/logo.svg" width="56" align="left" alt="since-cutoff logo"></a>
+
 **[since-cutoff](https://github.com/MohammadHijjawi97/since-cutoff)** finds which of your exact dependency versions your coding model writes wrong, and fixes them with short AGENTS.md notes that a type checker verifies. It turns the idea behind our EMNLP 2026 temporal-isolation paper (what a model knows about the world after its cutoff) into a tool for real code.
 
-First result: Claude Haiku 4.5 wrote stale code for 3 of the 5 libraries probed on a sample project (`temperature=` in anthropic 1.8, `resume_download=` in huggingface_hub 2.0), and 8 notes took held-out tasks from 14% to 57% correct. Python, MIT, works as a Claude Code plugin.
+- **The problem, measured across vendors:** of 36 widely used Python AI libraries, even a model trained up to June 2026 predates a public API break in 20; for early-2025 models it is 33. [Results for 21 models from 8 vendors](https://mohammadhijjawi97.github.io/since-cutoff/ai-stack.html).
+- **The fix, measured per project:** on a sample project, 8 type-checked notes took Claude Haiku 4.5 from 14% to 57% correct on held-out tasks (one project, measured with 0.1.0); 0.3.0 adds the statistics and baseline comparisons to check such results on your own code.
+- **Where it runs:** CLI (`uvx since-cutoff scan`), an MCP server in the official MCP Registry, a Claude Code plugin, a GitHub Action and a pre-commit hook. Python, MIT, documented in English, Chinese, Spanish and French.
 
 ---
 
