@@ -26,7 +26,7 @@ My core specialism is **agentic AI**: LangGraph state machines and checkpointers
 
 120+ merged pull requests across 40 open-source AI/ML projects (as of October 2026), mostly bug fixes with regression tests.
 
-- **[Haystack](https://github.com/deepset-ai/haystack)** (deepset): credited among the contributors to Haystack 3.3.0, with fixes to OpenAI-format tool-call parsing in `ChatMessage`, `QueryExpander` and `TextCleaner`.
+- **[Haystack](https://github.com/deepset-ai/haystack)** (deepset): credited among the contributors to [Haystack 3.3.0](https://www.linkedin.com/posts/haystack-ai-framework_haystack-330-is-here-this-ones-a-focused-activity-7511411397012934657-tTh2), with fixes to OpenAI-format tool-call parsing in `ChatMessage`, `QueryExpander` and `TextCleaner`.
 - **[Kornia](https://github.com/kornia/kornia)** (18 merged) and **[Ultralytics](https://github.com/ultralytics/ultralytics)** (14): computer vision geometry, image I/O and utilities.
 - **[Docling](https://github.com/docling-project/docling)**, **[Roboflow Supervision](https://github.com/roboflow/supervision)**, **[Genesis](https://github.com/Genesis-Embodied-AI/genesis-world)**, **[Feast](https://github.com/feast-dev/feast)**, **[SAHI](https://github.com/obss/sahi)**, **[ONNX](https://github.com/onnx/onnx)**, **[statsmodels](https://github.com/statsmodels/statsmodels)**, **[AnythingLLM](https://github.com/Mintplex-Labs/anything-llm)** and others.
 
