@@ -24,10 +24,13 @@ My core specialism is **agentic AI**: LangGraph state machines and checkpointers
 
 ## Open-source contributions
 
-120+ merged pull requests across 40 open-source AI/ML projects (as of October 2026), mostly bug fixes with regression tests.
+180+ merged pull requests across 48 open-source AI/ML projects (as of October 2026), mostly bug fixes with regression tests.
+
+- **[Langflow](https://github.com/langflow-ai/langflow)** (150K+ stars): fixes to the Filter equals operators and Text to DataFrame ([#15486](https://github.com/langflow-ai/langflow/pull/15486), [#15485](https://github.com/langflow-ai/langflow/pull/15485)).
+- **[Unsloth](https://github.com/unslothai/unsloth)** (77K+ stars): Studio fixes, including Deep Research hand-off and SKILL.md loading.
 
 - **[Haystack](https://github.com/deepset-ai/haystack)** (deepset): credited among the contributors to [Haystack 3.3.0](https://www.linkedin.com/posts/haystack-ai-framework_haystack-330-is-here-this-ones-a-focused-activity-7511411397012934657-tTh2), with fixes to OpenAI-format tool-call parsing in `ChatMessage`, `QueryExpander` and `TextCleaner`.
-- **[Kornia](https://github.com/kornia/kornia)** (18 merged) and **[Ultralytics](https://github.com/ultralytics/ultralytics)** (14): computer vision geometry, image I/O and utilities.
+- **[Kornia](https://github.com/kornia/kornia)** (20 merged) and **[Ultralytics](https://github.com/ultralytics/ultralytics)** (15): computer vision geometry, image I/O and utilities.
 - **[Docling](https://github.com/docling-project/docling)**, **[Roboflow Supervision](https://github.com/roboflow/supervision)**, **[Genesis](https://github.com/Genesis-Embodied-AI/genesis-world)**, **[Feast](https://github.com/feast-dev/feast)**, **[SAHI](https://github.com/obss/sahi)**, **[ONNX](https://github.com/onnx/onnx)**, **[statsmodels](https://github.com/statsmodels/statsmodels)**, **[AnythingLLM](https://github.com/Mintplex-Labs/anything-llm)** and others.
 
 [All merged pull requests](https://github.com/search?q=author%3AMohammadHijjawi97+is%3Apr+is%3Amerged&type=pullrequests)
@@ -36,10 +39,10 @@ My core specialism is **agentic AI**: LangGraph state machines and checkpointers
 
 ## Now
 
-- **AI Instructor and AI Engineering Mentor**, Multiverse, London. Hands-on architecture and code review with 130+ engineers building LLM, RAG and agent systems inside their own organisations, including the NHS and the University of Cambridge.
+- **AI Instructor and Engineering Mentor**, Multiverse, London. Hands-on architecture and code review with 130+ engineers building LLM, RAG and agent systems inside their own organisations.
 - **Instructor**, Great Learning, with Johns Hopkins University and UT Austin. Designed the reference implementations for a 14-week agentic AI programme: LangGraph agentic RAG, MCP-native ReAct agents, red-teaming, multi-agent systems, HITL workflows and evaluation.
 
-Previously Data Scientist at EMCOR UK (now OCS). Lead AI and Data Engineer at Ideas Beyond Borders since 2019 (Bayt Al Hikma NLP ranking; content from that programme has been read 500 million+ times).
+Previously Data Scientist at EMCOR UK (now OCS). Senior Machine Learning Engineer at Ideas Beyond Borders (Bayt Al Hikma NLP ranking; content from that programme has been read 500 million+ times).
 
 ---
 
