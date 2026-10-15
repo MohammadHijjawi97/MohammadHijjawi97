@@ -24,14 +24,14 @@ My core specialism is **agentic AI**: LangGraph state machines and checkpointers
 
 ## Open-source contributions
 
-180+ merged pull requests across 48 open-source AI/ML projects (as of October 2026), mostly bug fixes with regression tests.
+235+ merged pull requests across 60+ open-source AI/ML projects (as of October 2026), mostly bug fixes with regression tests. Credited by name in 40+ release notes, including Roboflow, Haystack, Ultralytics, Langflow, Unsloth, AnythingLLM, Prefect and xinference.
 
-- **[Langflow](https://github.com/langflow-ai/langflow)** (150K+ stars): fixes to the Filter equals operators and Text to DataFrame ([#15486](https://github.com/langflow-ai/langflow/pull/15486), [#15485](https://github.com/langflow-ai/langflow/pull/15485)).
-- **[Unsloth](https://github.com/unslothai/unsloth)** (77K+ stars): Studio fixes, including Deep Research hand-off and SKILL.md loading.
-
+- **[Langflow](https://github.com/langflow-ai/langflow)** (150K+ stars): fixes to the Filter equals operators and Text to DataFrame ([#15486](https://github.com/langflow-ai/langflow/pull/15486), [#15485](https://github.com/langflow-ai/langflow/pull/15485)), shipped in [Langflow 1.12.5](https://github.com/langflow-ai/langflow/releases/tag/v1.12.5).
+- **[vLLM](https://github.com/vllm-project/vllm)** (90K+ stars) and **[NVIDIA TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM)**: serving fixes (Cohere Chat v2 logprobs, Kimi K2 tool-call parsing).
+- **[Unsloth](https://github.com/unslothai/unsloth)** (77K+ stars): Studio fixes, including Deep Research hand-off, SKILL.md loading and Gemma tool-call arguments.
 - **[Haystack](https://github.com/deepset-ai/haystack)** (deepset): credited among the contributors to [Haystack 3.3.0](https://www.linkedin.com/posts/haystack-ai-framework_haystack-330-is-here-this-ones-a-focused-activity-7511411397012934657-tTh2), with fixes to OpenAI-format tool-call parsing in `ChatMessage`, `QueryExpander` and `TextCleaner`.
-- **[Kornia](https://github.com/kornia/kornia)** (20 merged) and **[Ultralytics](https://github.com/ultralytics/ultralytics)** (15): computer vision geometry, image I/O and utilities.
-- **[Docling](https://github.com/docling-project/docling)**, **[Roboflow Supervision](https://github.com/roboflow/supervision)**, **[Genesis](https://github.com/Genesis-Embodied-AI/genesis-world)**, **[Feast](https://github.com/feast-dev/feast)**, **[SAHI](https://github.com/obss/sahi)**, **[ONNX](https://github.com/onnx/onnx)**, **[statsmodels](https://github.com/statsmodels/statsmodels)**, **[AnythingLLM](https://github.com/Mintplex-Labs/anything-llm)** and others.
+- **[Kornia](https://github.com/kornia/kornia)** (20 merged), **[Ultralytics](https://github.com/ultralytics/ultralytics)** (16) and **[Roboflow Supervision](https://github.com/roboflow/supervision)** (10, credited with LinkedIn in its release notes): computer vision geometry, annotators, video and dataset utilities.
+- **[Hugging Face sentence-transformers](https://github.com/huggingface/sentence-transformers)**, **[EleutherAI GPT-NeoX](https://github.com/EleutherAI/gpt-neox)**, **[Prefect](https://github.com/PrefectHQ/prefect)**, **[Docling](https://github.com/docling-project/docling)**, **[Genesis](https://github.com/Genesis-Embodied-AI/genesis-world)**, **[Feast](https://github.com/feast-dev/feast)**, **[darts](https://github.com/unit8co/darts)**, **[doctr](https://github.com/mindee/doctr)**, **[statsmodels](https://github.com/statsmodels/statsmodels)**, **[AnythingLLM](https://github.com/Mintplex-Labs/anything-llm)** and others.
 
 [All merged pull requests](https://github.com/search?q=author%3AMohammadHijjawi97+is%3Apr+is%3Amerged&type=pullrequests)
 
